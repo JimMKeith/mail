@@ -1,0 +1,43 @@
+<h1>Send a Test email</h1>
+<div class="container center-text border border-4 border-danger bg-grey>
+    <div class=" row">
+    <form action="/auth/register" method="POST">
+        <div class="form-group row mx-auto my-3">
+            <div class="col-sm-2">
+                <label for="name">Name</label>
+            </div>
+            <div class="col-sm-auto">
+                <input type="text" required name="name" id="name" placeholder="Your name" />
+            </div>
+        </div>
+
+        <div class="form-group row mx-auto my-3">
+            <div class="col-sm-2">
+                <label for="email">Email Address</label>
+            </div>
+            <div class="col-sm-auto">
+                <input type="email" name="email" id="email" required placeholder="email address" \>
+            </div>
+        </div>
+
+        <div class="form row mx-auto mb-3">
+            <div class="col-sm-2">
+                <label for="text">Mesasage</label>
+            </div>
+            <div class="col-sm-auto">
+                <textarea name="text" id="text" placeholder="Your Message ..." rows="4" cols="80"
+                    maxlength="600"></textarea>
+            </div>
+        </div>
+
+        <div class="form-group row mx-auto mb-3">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-auto">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+</div>
